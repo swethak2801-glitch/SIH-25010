@@ -1,7 +1,7 @@
 # Smart India Hackathon Workshop
-# Date:
-## Register Number:
-## Name:
+# Date:21.09.2025
+## Register Number:25014909
+## Name:Swetha K
 ## Problem Title
 SIH 25010: Smart Crop Advisory System for Small and Marginal Farmers
 ## Problem Description
@@ -41,28 +41,48 @@ Government of Punjab
 Agriculture, FoodTech & Rural Development
 
 ## Proposed Solution
-<h3>Remove These Lines</h3>
-<ul><li>Detailed explanation of the proposed solution</li>
-<li>How it addresses the problem</li>
-<li>Innovation and uniqueness of the solution</li></ul>
+The proposed solution is a Smart Crop Advisory System that integrates AI, IoT, and multilingual support to deliver actionable insights directly to farmers. Farmers can access personalized recommendations based on soil type, crop stage, and local weather through a mobile app, WhatsApp bot, or community kiosk. The system also includes image-based pest/disease detection, fertilizer recommendations, and market price tracking. Voice-based advisory in regional languages ensures accessibility for low-literate farmers. The uniqueness lies in its offline-first approach, edge AI for diagnosis, and community-driven knowledge sharing, making it both scalable and inclusive.
 
 ## Technical Approach
-<h3>Remove These Lines</h3>
-<ul><li>Technologies to be used (e.g. programming languages, frameworks, hardware)
-</li>
-<li>Methodology and process for implementation <b>(Flow Charts/Images/ working prototype)</b></li></ul>
+Mobile App / Chatbot: Multilingual, with text + voice support.
+
+AI Models: TensorFlow Lite for on-device pest/disease detection.
+
+IoT Sensors: Soil moisture, pH, and micro-weather tracking (ESP32/LoRa).
+
+Backend: Node.js + Firebase for sync and storage.
+
+User Access Points: Mobile phones, agri-kiosks, WhatsApp/IVR.
+
+**Implementation Flow:**
+
+Farmer inputs query (voice/image/text).
+
+AI model + sensor data + weather API generate localized advisory.
+
+Advisory delivered via app, voice call, or kiosk in local language.
+
+Feedback collected for continuous improvement.
 
 ## Feasibility and Viability
-<h3>Remove These Lines</h3>
-<ul><li>Analysis of the feasibility of the idea</li>
-<li>Potential challenges and risks</li>
-<li>Strategies for overcoming these challenges</li></ul>
+Feasibility: Low-cost sensors and mobile-first solutions make it practical for rural areas. Offline-first design ensures usability even in low-connectivity zones.
+
+Challenges: Adoption barriers due to trust issues, digital literacy, and hardware availability.
+
+Mitigation: Partner with government (Punjab agriculture department), FPOs, and local cooperatives for awareness campaigns and kiosk setup. Voice-first design solves literacy challenges.
 
 ## Impact and Benefits
-<h3>Remove These Lines</h3>
-<ul><li>Potential impact on the target audience</li>
-<li>Benefits of the solution (social, economic, environmental, etc.)</li></ul>
+Social: Empowers farmers with reliable, scientific advisory in their own language.
+
+Economic: Optimized input use reduces costs, improves yield, and boosts farmer income.
+
+Environmental: Promotes sustainable farming by reducing overuse of fertilizers/pesticides.
+
+Government & NGOs: Scalable platform for agricultural extension programs.
 
 ## Research and References
-<h3>Remove These Lines</h3>
-<ul><li>Details / Links of the reference and research work</li></ul>
+NABARD Report, 2022: Status of Indian Agriculture and Farmers.
+
+World Bank Studies on ICT in Agriculture: ICT advisories improve yields by 20–30%.
+
+FAO Reports on sustainable agri-tech adoption in developing countries.
