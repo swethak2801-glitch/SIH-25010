@@ -101,6 +101,24 @@ Data Security: Role-based access, encryption for farmer data.
 Scalable Architecture: Cloud-native microservices for expansion across regions.
 
 FLOW CHAT:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ![image SIH](https://github.com/user-attachments/assets/ee4fbbab-1a5b-4058-85f0-7b02e7f78b91)
 
 
